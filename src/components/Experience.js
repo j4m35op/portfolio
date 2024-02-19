@@ -58,49 +58,33 @@ const Experience = () => {
                 
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                     <Details 
-                    position="Software Engineer" company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present" address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    position="Founder and Owner" company="JM&K Enterprises"
+                    companyLink="www.jmandkenterprises.com"
+                    time="2023" address="Vadodara, Gujarat, IN"
+                    work=" I led a team specializing in dynamic social media marketing, delivering tailored strategies to businesses across industries. My expertise in innovation and results-driven approaches propelled brands to new heights through targeted campaigns, earning recognition for our impactful work and commitment to excellence."
                     />
 
 <Details 
-                    position="Intern" company="Google"
+                    position="Director" company="Hamrah Charitable Trust"
                     companyLink="www.google.com"
-                    time="2022-Present" address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    time="2023" address="Vadodara, Gujarat, IN"
+                    work="As the IT Manager at Hamrah Charitable Trust, I led a team in optimizing technological infrastructure and digital initiatives. My focus on efficiency and cybersecurity bolstered operations, integrating innovative solutions to support the trust's mission."
                     />
 
 <Details 
-                    position="Software Engineer" company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present" address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    position="Founder and Owner" company="Kirei Verse"
+                    companyLink="https://www.instagram.com/kirei_verse/"
+                    time="2023" address="Vadodara, Gujarat, IN"
+                    work="At KireiVerse, we've built an anime clothing brand that blends fandom with fashion, offering stylish collections that resonate with enthusiasts worldwide. Our quality apparel allows fans to express their love for anime while fostering a vibrant community of like-minded individuals."
                     />
 
 <Details 
-                    position="Software Engineer" company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present" address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    position="Intern" company="CareerNaksha"
+                    companyLink="https://www.careernaksha.com/"
+                    time="2023" address="Vadodara, Gujarat, IN"
+                    work="During my internship at Career Naksha, I collaborated closely with experienced professionals on diverse graphic design projects, refining my skills in digital media. Through hands-on experience and mentorship, I gained valuable insights into strategic design thinking, enhancing both my technical proficiency and understanding of the intersection between design and business objectives, setting a solid foundation for my future in graphic design."
                     />
 
-<Details 
-                    position="Software Engineer" company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present" address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
-                    />
                 </ul>
             </div>
         </div>

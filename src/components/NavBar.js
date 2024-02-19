@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { Linden_Hill } from "next/font/google";
 import { useRouter } from "next/router";
-import { TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon } from "./Icons";
+import { TwitterIcon, Facebook, GithubIcon, LinkedInIcon, Instagram, SunIcon, MoonIcon } from "./Icons";
 import {motion} from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
@@ -81,40 +81,40 @@ const NavBar = () => {
             </nav>
             
             <nav className="flex items-center justify-center flex-wrap">
-                <motion.a href="https://twitter.com" target={"_blank"}
-                whileHover={{y:-2 }}
-                whileTap={{scale:0.9}}
-                className="w-6 mx-3"
-                >
-                    <TwitterIcon />
-                </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://github.com/j4m35op" target={"_blank"}
                 whileHover={{y:-2 }}
                 whileTap={{scale:0.9}}
                 className="w-6 mx-3"
                 >
                     <GithubIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://twitter.com/J4M35OP" target={"_blank"}
+                whileHover={{y:-2 }}
+                whileTap={{scale:0.9}}
+                className="w-6 mx-3"
+                >
+                    <TwitterIcon />
+                </motion.a>
+                <motion.a href="https://www.linkedin.com/in/jamesrathod/" target={"_blank"}
                 whileHover={{y:-2 }}
                 whileTap={{scale:0.9}}
                 className="w-6 mx-3"
                 >
                     <LinkedInIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://www.instagram.com/james.rthd/" target={"_blank"}
                 whileHover={{y:-2 }}
                 whileTap={{scale:0.9}}
-                className="w-6 mx-3 bg-light rounded-full"
+                className="w-6 mx-3 bg-light rounded-lg dark:bg-light"
                 >
-                    <PinterestIcon />
+                    <Instagram />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://www.facebook.com/jms.rthd" target={"_blank"}
                 whileHover={{y:-2 }}
                 whileTap={{scale:0.9}}
-                className="w-6 ml-3"
+                className="w-6 mx-3"
                 >
-                    <DribbbleIcon />
+                    <Facebook />
                 </motion.a>
             
             <button
@@ -150,40 +150,40 @@ const NavBar = () => {
             </nav>
             
             <nav className="flex items-center justify-center flex-wrap mt-2">
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://github.com/j4m35op" target={"_blank"}
                 whileHover={{y:-2 }}
                 whileTap={{scale:0.9}}
-                className="w-6 mr-3 sm:mx-1"
-                >
-                    <TwitterIcon />
-                </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
-                whileHover={{y:-2 }}
-                whileTap={{scale:0.9}}
-                className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+                className="w-6 mr-3 bg-light rounded-full dark:bg-dark sm:mx-1"
                 >
                     <GithubIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://twitter.com/J4M35OP" target={"_blank"}
+                whileHover={{y:-2 }}
+                whileTap={{scale:0.9}}
+                className="w-6 mx-3 sm:mx-1"
+                >
+                    <TwitterIcon />
+                </motion.a>
+                <motion.a href="https://www.linkedin.com/in/jamesrathod/" target={"_blank"}
                 whileHover={{y:-2 }}
                 whileTap={{scale:0.9}}
                 className="w-6 mx-3 sm:mx-1"
                 >
                     <LinkedInIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://www.instagram.com/james.rthd/" target={"_blank"}
                 whileHover={{y:-2 }}
                 whileTap={{scale:0.9}}
-                className="w-6 mx-3 bg-light rounded-full sm:mx-1"
+                className="w-6 mx-3 bg-light rounded-lg dark:bg-light sm:mx-1"
                 >
-                    <PinterestIcon />
+                    <Instagram />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                <motion.a href="https://www.facebook.com/jms.rthd" target={"_blank"}
                 whileHover={{y:-2 }}
                 whileTap={{scale:0.9}}
-                className="w-6 ml-3 sm:mx-1"
+                className="w-6 mx-4 sm:mx-1"
                 >
-                    <DribbbleIcon />
+                    <Facebook />
                 </motion.a>
             
             <button

@@ -52,28 +52,34 @@ const Education = () => {
                 
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                     <Details 
-                    type="Bachelor Of Science In Computer Science" 
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
-                    info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                    Intelligence."
+                    type="Secondary School Certificate" 
+                    time="2020-2021"
+                    place="Yagnik School"
+                    info=" Yagnik is the school where I
+                    completed my 10th grade in
+                    the year 2021. My experience at
+                    Yagnik helped me develop
+                    key skills and knowledge
+                    that I can bring to any future
+                    academic or professional
+                    pursuits"
                     />
 
                     <Details 
-                    type="Bachelor Of Science In Computer Science" 
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
-                    info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                    Intelligence."
+                    type="Diploma In Computer Engineering" 
+                    time="2021-2024"
+                    place="Parul University is the
+                    institution where I am
+                    currently pursuing a diploma
+                    in Computer Engineering. I have
+                    successfully completed my
+                    5th semester. In my 4rd
+                    semester, I achieved a CGPA
+                    of 7.75, which reflects my
+                    dedication and hard work
+                    towards my studies"
                     />
 
-                    <Details 
-                    type="Bachelor Of Science In Computer Science" 
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
-                    info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                    Intelligence."
-                    />
                 </ul>
             </div>
         </div>

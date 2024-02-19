@@ -146,30 +146,7 @@ const articles = () => {
                             link="/"
                             img={article5}
                         />
-                        <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                            date="March 22, 2023"
-                            link="/"
-                            img={article3}
-                        />
-                        <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                            date="March 22, 2023"
-                            link="/"
-                            img={article3}
-                        />
-                        <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                            date="March 22, 2023"
-                            link="/"
-                            img={article3}
-                        />
-                        <Article
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                            date="March 22, 2023"
-                            link="/"
-                            img={article3}
-                        />
+                        
                     </ul>
                 </Layout>
             </main>

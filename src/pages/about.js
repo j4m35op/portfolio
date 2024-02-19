@@ -49,8 +49,8 @@ const about = () => {
                         <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
                             <p className="font-medium">
-                                Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
+                                Hi, I'm James Rathod, a web developer and programmer with a passion for creating beautiful, functional,
+                                and user-centered digital experiences. With 3 years of experience in the field. I am always looking for
                                 new and innovative ways to bring my clients' visions to life.
                             </p>
 
@@ -80,7 +80,7 @@ const about = () => {
 
                             <div className="flex flex-col items-end justify-center xl:items-center">
                                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                                    <AnimatedNumbers value={50} />+
+                                    <AnimatedNumbers value={20} />+
                                 </span>
                                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
                                 xs:text-sm">satisfied clients</h2>
@@ -88,7 +88,7 @@ const about = () => {
 
                             <div className="flex flex-col items-end justify-center xl:items-center">
                                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                                    <AnimatedNumbers value={40} />+
+                                    <AnimatedNumbers value={20} />+
                                 </span>
                                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
                                 xs:text-sm">projects completed</h2>

@@ -5,7 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/tictactoe.jpg";
+import project2 from "../../public/images/projects/Stack.png";
+import project3 from "../../public/images/projects/snake.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -116,13 +118,11 @@ const projects = () => {
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12">
                             <FeaturedProject
-                                title="Crypto Screener Application"
+                                title="Tic Tac Toe Game"
                                 img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency."
-                                link="/"
-                                github="/"
+                                summary="Immerse yourself in the nostalgia of childhood with my meticulously crafted Tic Tac Toe web game. Using HTML and CSS, I've recreated the beloved classic for endless entertainment right on your web browser. With a clean, intuitive interface, players can enjoy manual gameplay, challenging friends or family to strategic matches. So, gather your opponents and let the X's and O's fill the grid in this timeless web rendition of Tic Tac Toe."
+                                link="https://tictactoe-by-james.vercel.app/"
+                                github="https://github.com/j4m35op/tictactoe-game"
                                 type="Featured Project"
 
                             />
@@ -130,26 +130,22 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency."
-                                link="/"
-                                github="/"
+                                title="Stack Game"
+                                img={project2}
+                                summary="Engage in the addictive challenge of stacking slabs with my custom-built web game, Stack Slab. Utilizing HTML and CSS, this game presents players with the thrilling task of constructing the tallest tower they can manage. With intuitive controls and a sleek design, Stack Slab promises hours of entertainment and skill-testing fun, perfect for anyone seeking a captivating gaming experience right from their web browser."
+                                link="https://stack-by-james.vercel.app/"
+                                github="https://github.com/j4m35op/stack-game"
                                 type="Featured Project"
 
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                         <Project
-                            title="Crypto Screener Application"
-                            img={project1}
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency."
-                            link="/"
-                            github="/"
+                            title="Snake Game"
+                            img={project3}
+                            summary="Indulge in the timeless joy of the Snake game with my custom-built web version. Developed using HTML and CSS, this rendition brings the classic arcade experience to your fingertips, right in your web browser. Maneuver the snake through the grid, gobbling up food and growing longer with each successful bite."
+                            link="https://snake-by-james.vercel.app/"
+                            github="https://github.com/j4m35op/Snake-Game"
                             type="Featured Project"
 
                         /></div>

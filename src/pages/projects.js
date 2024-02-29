@@ -6,8 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/tictactoe.jpg";
-import project2 from "../../public/images/projects/stack.png";
+import project2 from "../../public/images/projects/Stack.png";
 import project3 from "../../public/images/projects/snake.png";
+import project4 from "../../public/images/projects/signuplogin.png";
+import project5 from "../../public/images/projects/solarsystem.png";
+import project6 from "../../public/images/projects/virtualcard.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -140,16 +143,49 @@ const projects = () => {
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
-                        <Project
-                            title="Snake Game"
-                            img={project3}
-                            summary="Indulge in the timeless joy of the Snake game with my custom-built web version. Developed using HTML and CSS, this rendition brings the classic arcade experience to your fingertips, right in your web browser. Maneuver the snake through the grid, gobbling up food and growing longer with each successful bite."
-                            link="https://snake-by-james.vercel.app/"
-                            github="https://github.com/j4m35op/Snake-Game"
-                            type="Featured Project"
+                            <Project
+                                title="Snake Game"
+                                img={project3}
+                                summary="Indulge in the timeless joy of the Snake game with my custom-built web version. Developed using HTML and CSS, this rendition brings the classic arcade experience to your fingertips, right in your web browser. Maneuver the snake through the grid, gobbling up food and growing longer with each successful bite."
+                                link="https://snake-by-james.vercel.app/"
+                                github="https://github.com/j4m35op/Snake-Game"
+                                type="Featured Project"
 
-                        /></div>
+                            /></div>
 
+                        <div className="col-span-12">
+                            <FeaturedProject
+                                title="SignUp Login Page"
+                                img={project4}
+                                summary="Explore my latest project, a bespoke 3D Signup/Login page designed to redefine user interaction on the web. Crafted using modern web technologies like HTML, CSS, and potentially JavaScript, this project showcases an innovative approach to web interface design. With its captivating 3D visuals and seamless navigation, users can effortlessly register or access their accounts in style, setting a new standard for web interfaces."
+                                link="https://signup-login-form-by-james.vercel.app/"
+                                github="https://github.com/j4m35op/signup-login-form"
+                                type="Featured Project"
+
+                            />
+
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                                title="Solar System Visualisation"
+                                img={project5}
+                                summary="Experience the wonders of space with my Solar System visualization project, crafted using HTML, CSS, and possibly JavaScript. Navigate through the celestial bodies of our solar system, from the blazing sun to the outer reaches, all within your web browser. This visually captivating project not only showcases your web development skills but also provides an immersive journey through the cosmos for users."
+                                link="https://solar-system-by-james.vercel.app/"
+                                github="https://github.com/j4m35op/solar-system"
+                                type="Featured Project"
+
+                            /></div>
+
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                                title="Virtual Card"
+                                img={project6}
+                                summary="Indulge in the timeless joy of the Snake game with my custom-built web version. Developed using HTML and CSS, this rendition brings the classic arcade experience to your fingertips, right in your web browser. Maneuver the snake through the grid, gobbling up food and growing longer with each successful bite."
+                                link="https://jamesvirtualcard.netlify.app/"
+                                github="https://github.com/j4m35op/virtualcard"
+                                type="Featured Project"
+
+                            /></div>
                     </div>
                 </Layout>
             </main>

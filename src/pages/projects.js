@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/tictactoe.jpg";
-import project2 from "../../public/images/projects/Stack.png";
+import project2 from "../../public/images/projects/stack.png";
 import project3 from "../../public/images/projects/snake.png";
 import project4 from "../../public/images/projects/signuplogin.png";
 import project5 from "../../public/images/projects/solarsystem.png";
